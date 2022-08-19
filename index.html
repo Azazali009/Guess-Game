@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess-Number-Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-item">
+          <div>
+            <button class="btn again">Again!</button>
+          </div>
+
+          <p class="between">( Between 1 and 20 )</p>
+        </div>
+
+        <div class="heading">Guess My Number!</div>
+
+        <p class="number">?</p>
+      </header>
+
+      <main class="main-section">
+        <section class="left">
+          <input
+            type="number"
+            class="guess"
+            placeholder="Enter Number"
+            required
+          />
+          <br />
+
+          <button class="btn check">Check!</button>
+        </section>
+
+        <section class="right">
+          <p class="message">😎 Start guessing...</p>
+          <p class="score-label">😂 Score: <span class="score">20</span></p>
+          <p class="highscore-label">
+            😜 Highscore: <span class="highscore"> 0 </span>
+          </p>
+        </section>
+      </main>
+      <footer>
+        <p class="footer-para">Developed by Aizy Khan</p>
+        <p class="footer-para">
+          Copyright &copy; 2022 by Aizy khan.Inc.All right reserved
+        </p>
+      </footer>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
